@@ -11,3 +11,168 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  background-color: #191923da;
+}
+
+.App{
+  display: flex;
+  justify-content: space-around;
+}
+
+.block{
+  background-color: rgba(255, 255, 255, 0.31);
+  padding: 20px;
+  text-align: center;
+}
+.catalog{
+  padding: 20px;
+}
+
+.descript{
+font-size: 20px;
+}
+
+.price{
+  font-weight: bolder;
+  color: rgb(10, 59, 10);
+}
+
+.cartIcon{
+  width: 70px;
+  margin-top: 50px;
+}
+
+.categoryButtonSelected{
+background-color: green;
+}
+
+.categoryButtonSelected:hover{
+  background-color: green;
+}
+
+.categoryButton{
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+
+.categoryButton:hover{
+  background-color: #bcb9a9;
+}
+
+.icon{
+  width: 20px;
+}
+
+p, button{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+h1{
+  text-transform: uppercase;
+  text-shadow: rgb(49, 48, 48) 1px .5px;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(10, 59, 10);
+  margin-bottom: 50px;
+}
+
+h2{
+  text-transform: uppercase;
+  text-shadow: rgb(49, 48, 48) 1px .5px;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(10, 59, 10);
+}
+
+h3{
+  color: rgb(10, 59, 10);
+  font-weight: bolder;
+}
+
+p{
+  color: beige;
+}
+
+.addBtn{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: beige;
+  color: rgb(10, 59, 10);
+}
+
+button:hover{
+  background-color: #bcb9a9;
+}
+
+.plus{
+  font-weight: bolder;
+  color: rgb(10, 59, 10);
+}
+
+.mines{
+  font-weight: bolder;
+  color: rgb(10, 59, 10);
+}
+
+span{
+  font-weight: bolder;
+  color: rgb(10, 59, 10);
+}
+
+.foto{
+  width: 400px;
+  border-radius: 5%;
+  height: 300px;
+}
+
+@media all and (max-width:500px){
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.foto{
+  width: 150px;
+  height: 100px;
+  border-radius: 10%;
+}
+
+h1, p, h2, h3, button, span{
+  font-size:10px;
+}
+
+.cartIcon {
+  align-self: center;
+  width:30px;
+}
+}
