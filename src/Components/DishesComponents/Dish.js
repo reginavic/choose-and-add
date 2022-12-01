@@ -5,7 +5,7 @@ import ChangeQuantity from "../Cart/ChangeQuantity";
 
 const Dish = ({dish}) =>{
 
-    const [quantity, setQuantity] = useState(0);
+    const [quantity, setQuantity] = useState(1);
     const dispatch= useDispatch();
 
 return(
